@@ -1,0 +1,61 @@
+@keyframes border-pulsate {
+    0%   { background-color: rgb(255, 97, 97); }
+    50%  { background-color: rgb(158, 0, 0); }
+    100% { background-color: rgb(255, 97, 97); }
+}
+
+
+.livre, .em_uso, .pendente {
+    background-color: rgb(157, 255, 144);
+    color: white;
+    width: 10%;
+    padding: 20px;
+    position: relative;
+    border-radius: 40px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    margin-top: 30px;
+    min-width: 100px;
+    height: 80px;
+    cursor: copy;
+}
+
+.livre {
+    background-color: rgb(88, 177, 88);
+}
+
+.em_uso {
+    background-color: rgb(255, 97, 97);
+}
+
+.pendente {
+    background-color: rgb(138, 0, 0);
+    animation: border-pulsate 2s infinite;
+}
+
+.roomContainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    min-width: 850px;
+    display: inline-flex;
+    
+}
+
+.procedureHoverCard {
+    backdrop-filter: blur(30px);
+    text-align: center;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 30px;
+    border-radius: 20px;
+    width: 10vw;
+}
+
+.singleRoom progress {
+    width: 60%;
+    position: relative;
+}

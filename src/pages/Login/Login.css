@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(50, 41, 47);
+}
+
+.mainPage {
+    background-color: rgb(249, 248, 248);
+    width: 20%;
+    margin: auto;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    height: 60vh;
+    margin-top: 100px;
+    min-width: 400px;
+}
+
+.titleBox {
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 50px;
+}
+
+
+.loginForm {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.loginForm button {
+    background-color: rgb(189, 240, 239);
+    width: 70%;
+    border: 1px solid rgb(97, 163, 154);
+    border-radius: 20px;
+    height: 40px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.loginForm input {
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid rgb(94, 94, 94);
+    text-align: center;
+}
+
+.loginForm input:active {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.loginForm p {
+    color: red;
+    margin-top: 50px;
+}
+
+
+hr {
+    width: 90%;
+}

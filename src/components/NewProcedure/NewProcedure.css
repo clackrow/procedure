@@ -1,0 +1,46 @@
+.addButton {
+    backdrop-filter: blur(30px);
+    border: 1px solid rgb(145, 145, 145);
+    font-size: large;
+    padding: 30px;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-top: -4vh;
+    position: absolute;
+    margin-left: 38vw;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    color: rgb(78, 78, 78);
+}
+
+
+.addProcedure {
+    position: absolute;
+    margin-top: -35vh;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: 1px solid rgb(182, 182, 182);
+    text-align: left;
+    margin-left: 23vw;
+    border-radius: 40px;
+    border-bottom-right-radius: 0px;
+    padding: 40px;
+    z-index: 1;
+    font-size: large;
+}
+
+.addProcedure button {
+    font-size: large;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border-top-left-radius: 0px;
+}
+
+.addProcedure input, select {
+    font-size: large;
+    margin-top: 10px;
+}
